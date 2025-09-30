@@ -3,10 +3,10 @@
 Day-1 POC: connect to Jenkins, fetch Jenkinsfile and recent builds, ask Gemini (Google Generative AI) for optimization suggestions.
 
 Environment variables:
-- JENKINS_URL
-- JENKINS_USER
-- JENKINS_TOKEN
-- GEMINI_API_KEY or GOOGLE_API_KEY
+- `JENKINS_URL`
+- `JENKINS_USER`
+- `JENKINS_TOKEN`
+- `GEMINI_API_KEY` or `GOOGLE_API_KEY`
 
 Quick start:
 
