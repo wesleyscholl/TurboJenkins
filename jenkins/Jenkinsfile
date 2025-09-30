@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    // Load the build pipeline script
+                    load 'pipelines/build.groovy'
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    // Load the deploy pipeline script
+                    load 'pipelines/deploy.groovy'
+                }
+            }
+        }
+    }
+}
